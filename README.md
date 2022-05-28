@@ -1,7 +1,6 @@
 
 # Muslim Web App
-
-Web Application provides all services what Muslim needs such as listening to Al-Quran , Al-Azkar, Prayer Timings and other many things
+Web application provides all the services that a Muslim needs, such as listening to the Qur’an, Azkar, prayer times, and many other services
 
 _**NOTE:** I participated in the development of this project with my team at university and I was only responsible for some parts of the backend_
 
