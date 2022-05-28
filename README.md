@@ -16,8 +16,8 @@ _**NOTE:** I participated in its development with my team at university and I wa
 ## Built With
 
 - PHP
-- SQL
 - HTML/CSS
+- SQL
 - JS
 
 
