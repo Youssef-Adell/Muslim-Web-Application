@@ -3,7 +3,8 @@
 
 Web Application provides all services what Muslim needs such as listening to Al-Quran , Al-Azkar, Prayer Timings and other many things
 
-**NOTE:** I co-developed it with my team at university and I was only responsible for the backend
+**NOTE:** I participated in its development with my university team and I was only responsible for some parts of the backend
+
 
 
 
