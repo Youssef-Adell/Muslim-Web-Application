@@ -9,7 +9,7 @@ _**NOTE:** I participated in its development with my team at university and I wa
 
 ## Features
 
-- Registration System for handling users..
+- Registration System for handling users.
 - Some pages are accessible only for registered users.
 - User can search for quran sour using search bar.
 - Contact form using PHPMailer.
