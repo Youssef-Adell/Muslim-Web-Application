@@ -1,0 +1,100 @@
+/* start present */
+
+.pre {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.pres {
+    margin-bottom: 1rem;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(174deg, #c5ab78, #eaecc6) !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 2px 12px -3px rgb(255 255 255);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: 1s;
+    outline: #f3f3f3 solid 1.9px;
+    text-align: center;
+    position: relative;
+    padding: 2px;
+}
+
+.ppp {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pr {
+    position: relative;
+}
+
+/* end present */
+
+/* <!-- start taaaable --> */
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-align: center;
+    background: #8c8c8c;
+}
+
+audio {
+    width: 15rem;
+}
+
+td {
+    background: #c0c0c0;
+    text-align: center;
+}
+
+td a {
+    color: black;
+    font-weight: bold;
+}
+
+/* <!-- end taaaable --> */
+/* start present2 */
+/* .pr::after {
+    content: '';
+    position: absolute;
+    top: 31%;
+    right: 78%;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    border-width: 34px;
+    border-style: solid;
+    border-color: silver rgb(140 140 140) silver silver;
+    animation: chanfge-co .8s infinite;
+    transition: 3s;
+    transform: rotate(-90deg);
+}
+
+@keyframes chanfge-co {
+    to {
+        border-color: silver #f3e0e0 silver silver;
+    }
+} */
+
+/* end present 2*/
+
+embed {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 29rem;
+}

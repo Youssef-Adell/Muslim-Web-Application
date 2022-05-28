@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'Lateef', cursive;
+}
+
+/* start header */
+/* header{
+    background:#8c8c8c;  
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    box-shadow: 0px -21px 25px 15px rgb(255 255 255);
+} */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(to right, #b7aa78, #6dd5fa54);
+}
+
+nav {
+    display: contents;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: #00000057;
+    text-decoration: none;
+    height: 85px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-left: 50px;
+    margin-right: -10px;
+}
+
+li a:hover {
+    color: black;
+}
+
+.active {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(to right, #c5d4c8, #fff);
+}
+
+h2 {
+    margin: 0.7rem;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+}
+
+.sign {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width:576px) {
+    li {
+        display: block;
+    }
+}
+
+/* end header */
+
+/* start contact */
+.contact-app {
+    position: fixed;
+    left: 0;
+    top: 60%;
+    z-index: 90000;
+    background: #f7d690;
+    box-shadow: 0px 3px 7px 0px black;
+}
+
+.contact-app .contactbox {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-app .contactbox a {
+    color: black;
+    font-size: 20px;
+}
+
+/* End contact */
+
+/* start alert */
+.alert {
+    text-align: center;
+    width: 30%;
+    margin: 4rem auto 0 auto;
+    padding: 0.5rem;
+    border: 2px solid;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+
+}
+
+.alert-error {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+
+}
+
+/* end alert */
+
+/* start form */
+.bigforma {
+    height: 500px;
+    position: relative;
+    margin-top: 4rem;
+}
+
+form.lognn {
+    width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    background: #ffffff45;
+    box-shadow: -1px 0px 8px 0px black;
+    height: 23rem;
+    position: relative;
+    margin-bottom: 6.9rem;
+}
+
+@media (max-width:425px) {
+    form.lognn {
+        width: 23rem;
+
+    }
+
+    .frma input.n {
+        margin: 1rem auto 1.7rem 13px;
+    }
+}
+
+@media (max-width:375px) {
+    form.lognn {
+        width: 20rem;
+    }
+}
+
+span.des {
+    background: #b0afaa;
+    width: 9em;
+    position: absolute;
+    height: 23em;
+    padding: 0 1rem;
+}
+
+p.parag {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.imagess {
+    background-image: url(../media/R.png);
+    width: 18em;
+    text-align: center;
+    height: 10rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -60px;
+    background-position: center;
+    background-size: 49%;
+}
+
+p.sadaqa {
+    position: absolute;
+    top: 14rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.lll {
+    position: absolute;
+    top: 11px;
+    left: 0rem;
+}
+
+.frma {
+    text-align: center;
+    width: 14em;
+}
+
+.frma input.n {
+    background: #ffffff;
+    width: 80%;
+    height: 2em;
+    display: block;
+    margin: 1rem auto 1.7rem auto;
+    padding: 5px;
+}
+
+@media (max-width:424px) {
+    .frma input.n {
+        margin: 1rem auto 1.7rem 17px;
+        max-width: 46%;
+        padding: 0%;
+    }
+
+    .resala {
+        max-width: 119px;
+        position: relative;
+        right: 37px;
+    }
+
+    .frma input.b {
+        margin: 10px;
+        position: relative;
+        right: 40px;
+    }
+
+}
+
+
+.resala {
+    width: 80%;
+    background: white;
+    width: 11rem;
+    box-shadow: 0px 4px 7px black;
+    outline: none;
+    border-radius: 7px;
+    margin: 0 auto 1rem auto;
+    padding: 5px;
+}
+
+.frma input.b {
+    display: block;
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #98bfdb;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding-top: 0.3rem;
+    padding-bottom: .3rem;
+    border-radius: 11px;
+    box-shadow: 0px 4px 7px black;
+}
+
+a.forget {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.forget:hover {
+    color: rgb(30, 124, 206);
+}
+
+/* end form */
+.sadaqaaa {
+    position: relative;
+    bottom: 5rem;
+}
+
+p.nashkor {
+    position: absolute;
+    font-weight: bold;
+    background: #bc5101;
+    width: 100%;
+    text-align: center;
+    height: 44px;
+    color: white;
+    font-size: 2rem;
+}

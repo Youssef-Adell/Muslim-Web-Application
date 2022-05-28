@@ -1,0 +1,81 @@
+/* start photoo */
+img.ramadann {
+    width: 80%;
+    margin-right: 10%;
+}
+
+
+/* end photoo */
+
+/* table */
+table.werd {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    background: silver;
+    box-shadow: -1px 0px 8px 0px black;
+}
+
+caption {
+    font-size: 6vw;
+    background: silver;
+    font-family: 'Reem Kufi', sans-serif;
+    box-shadow: -1px 0px 8px 0px black;
+    animation: bod 2s ease-in-out infinite;
+}
+
+th {
+    background: #f9f9ff;
+    font-size: 2.5vw;
+}
+
+@keyframes bod {
+    to {
+        color: aliceblue;
+    }
+}
+
+
+tr:nth-child(even) {
+    background: #ddd;
+}
+
+td {
+    padding: 1vw;
+    font-size: 2.2vh;
+    font-weight: bold;
+}
+
+tr {
+    background: #f9f9ff;
+}
+
+/* end table */
+
+/* start khatm */
+
+.khatm {
+    margin-bottom: 28px;
+}
+
+.khatm1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #8c8c8c;
+    box-shadow: -1px 0px 8px 0px black;
+}
+
+h1.khatm2 {
+    text-align: center;
+    background: #c0bfb7;
+    color: brown;
+}
+
+p.khatm3 {
+    padding-right: 1vw;
+    font-size: 2rem;
+}
+
+/* end khatm */

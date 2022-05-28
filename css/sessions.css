@@ -1,0 +1,468 @@
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'Lateef', cursive;
+    background: #a5a5a1;
+}
+
+.form-container {
+    background: #000000ab !important;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: none;
+}
+
+.form-container.show {
+    display: block;
+}
+
+.icon {
+    position: absolute;
+    top: 23%;
+    right: 2%;
+    z-index: 200000;
+}
+
+.icon i {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container .form {
+    width: 20rem !important;
+    background: linear-gradient(319deg, #c9ad77, #559ba1) !important;
+    margin: 30px auto;
+    height: 27rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 55%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.inputs-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-container .form .inputs {
+    padding: 0 20px !important;
+    height: 71px !important;
+    width: 100%;
+}
+
+.form-container .form .inputs input {
+    width: 75% !important;
+}
+
+#text {
+    margin-right: 54px;
+}
+
+#email {
+    margin-right: 54px;
+}
+
+.form-container .form .inputs label {
+    padding: 0 10px 0 0 !important;
+    font-weight: bold !important;
+}
+
+.form-container .form .time h3 {
+    font-size: 30px !important;
+    text-align: center !important;
+}
+
+#form {
+    width: 50% !important;
+    padding: 15px 10px !important;
+    margin: 0 auto;
+}
+
+.time-manage {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.hours {
+    font-size: 22px;
+    width: 48%;
+    margin: 0 auto 18px;
+    color: blue;
+}
+
+.time-manage h3 {
+    padding: 10px;
+    font-size: 25px;
+    /* color: #d4ffd9; */
+    margin: 10px 0;
+}
+
+.time-manage button {
+    width: 30%;
+    padding: 8px 10px;
+    background: red;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 7px;
+    margin: 21px auto;
+    cursor: pointer;
+}
+
+
+
+/* start header */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    display: contents;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: #00000057;
+    text-decoration: none;
+    height: 85px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-left: 50px;
+    margin-right: -10px;
+}
+
+li a:hover {
+    color: black;
+}
+
+.active {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(to right, #f7d690, #939481);
+}
+
+h2 {
+    margin: 0.7rem;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+}
+
+.sign {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width:576px) {
+    li {
+        display: block;
+    }
+}
+
+/* end header */
+
+/* <!-- start hefz --> */
+.heffz {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.big {
+    margin-bottom: 1rem;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(174deg, #c5ab78, #eaecc6) !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 2px 12px -3px rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: 1s;
+    outline: #f3f3f3 solid 1.9px;
+}
+
+.big:hover {
+    background: #8c8c8c70;
+}
+
+.f {
+    text-align: center;
+    position: relative;
+}
+
+.ff {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* <!-- end hefz --> */
+
+/* <!-- start mawaeed --> */
+
+.maw {
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    background: #bbbab3;
+    position: relative;
+}
+
+.maw::before {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    right: 0;
+}
+
+.maw::after {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+}
+
+.she {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: -webkit-xxx-large;
+    background: #bbbab3;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* <!-- end mawaeed --> */
+
+/* <!-- start sss  --> */
+.boxxxxxxx {
+    padding-bottom: 100px;
+}
+
+.box99 {
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height: 12rem;
+}
+
+.photo {
+    background-image: url(../media/avatar2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5rem;
+    background-position: top;
+    position: relative;
+    right: 0vw;
+    transition: 2s;
+}
+
+.photo::before {
+    content: '';
+    position: absolute;
+    background: #992727;
+    width: 5%;
+    height: 102%;
+    top: 0px;
+    right: -32px;
+}
+
+#ph1,
+#ph2,
+#ph3 {
+    position: relative;
+}
+
+#ph1::after {
+    content: '1';
+    position: absolute;
+    background: #992727;
+    width: 2rem;
+    height: 2rem;
+    top: 16%;
+    border-radius: 50%;
+    right: -50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: solid 2px;
+}
+
+#ph2::after {
+    content: '2';
+    position: absolute;
+    background: #992727;
+    width: 2rem;
+    height: 2rem;
+    top: 16%;
+    border-radius: 50%;
+    right: -50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: solid 2px;
+}
+
+#ph3::after {
+    content: '3';
+    position: absolute;
+    background: #992727;
+    width: 2rem;
+    height: 2rem;
+    top: 16%;
+    border-radius: 50%;
+    right: -50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: solid 2px;
+}
+
+td.maa {
+    /* padding: 1.3rem;
+    font-size: 1.5vw; */
+    /* font-weight: bold; */
+    background: #bbbab3;
+    text-align: center;
+    color: black;
+    font-family: 'Reem Kufi', sans-serif;
+    position: relative;
+    right: .6rem;
+    width: 28vw;
+    transition: 1s;
+
+}
+
+td.maa:hover {
+    color: rgb(230, 43, 43);
+    font-size: 2.3vw;
+}
+
+td.maa::before {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 2px;
+    top: 1px;
+    right: 0;
+    transition: 2s;
+}
+
+td.maa:hover::before {
+    content: '';
+    position: absolute;
+    background: #caafaf;
+    width: 100%;
+    height: 32px;
+    top: 1px;
+    right: 0;
+}
+
+td.maa::after {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 2px;
+    bottom: 1px;
+    right: 0;
+    transition: 2s;
+}
+
+td.maa:hover::after {
+    content: '';
+    position: absolute;
+    background: #caafaf;
+    width: 100%;
+    height: 30px;
+    bottom: 1px;
+    right: 0;
+}
+
+button.bttn-box {
+    padding: 2vw 1vw 2.7vw 1.7vw;
+    background: #bbbab3;
+    border: none;
+    /* font-weight: bold; */
+    transition: 1s;
+    position: relative;
+    right: 2rem;
+    cursor: pointer;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+button.bttn-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    transition: 1s;
+}
+
+button.bttn-box:hover {
+    background: rgb(230, 43, 43);
+    color: white;
+}
+
+button.bttn-box a:hover {
+    color: white;
+}
+
+/* <!-- end sss  --> */
+
+/* start footer */
+
+
+
+/* end footer */

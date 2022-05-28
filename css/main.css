@@ -1,0 +1,811 @@
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'Lateef', cursive;
+    /* background: linear-gradient(to bottom, #897d7d, #9aada0) !important; */
+    background: linear-gradient(259deg, #c9ad77, #838c84) !important;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/* Start scroll btn */
+.up {
+    position: fixed;
+    right: -40px;
+    z-index: 1000;
+    top: 80%;
+    background: #f7d690;
+    ;
+    width: 36px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    padding-top: 4px;
+    box-shadow: 0px 3px 7px 0px black;
+    transition: 1s;
+}
+
+i.fas.fa-angle-double-up {
+    font-size: 25px;
+    text-align: center;
+}
+
+.up.show {
+    right: 30px;
+}
+
+.up:hover {
+    background: linear-gradient(45deg, #1fa2ff, #12d8fa, #a6ffcb);
+    ;
+    color: #fff;
+    transition: .4s;
+}
+
+/* End scroll btn */
+
+/* start header */
+header {
+    background: #ffffff !important;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 !important;
+    background: linear-gradient(to right, #b7aa78, #6dd5fa54);
+}
+
+nav {
+    display: contents;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: #00000057;
+    text-decoration: none;
+    height: 85px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-left: 50px;
+    margin-right: -10px;
+}
+
+li a:hover {
+    color: black;
+}
+
+.active {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(to right, #c5d4c8, #fff);
+}
+
+.list {
+    font-size: 30px;
+    padding: 10px 10px 0 0;
+    color: #264348;
+    cursor: pointer;
+    z-index: 1000000000000000000000000000000;
+}
+
+.list-links {
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background: #fff;
+    width: 200px;
+    min-height: 100px;
+    transform: translateX(285px);
+    transition: 1s;
+}
+
+.list-links ul {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.list-links ul li {
+    display: block;
+    padding: 50px 10px;
+    text-align: center !important;
+    cursor: pointer;
+}
+
+.list-links ul li:hover {
+    background: #eee;
+}
+
+.list-links li a {
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+}
+
+
+.list-links.translate {
+    transform: translateX(0);
+    transition: 1s;
+}
+
+h2 {
+    margin: 0.7rem;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+}
+
+.sign {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+}
+
+/* end header */
+
+/* start container-head */
+
+.container-head {
+    min-height: 580px;
+    position: relative;
+    background-image: url(../media/BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+@keyframes back {
+    to {
+        background-attachment: local;
+    }
+}
+
+.name {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 13px;
+    font-size: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-head h1 {
+    margin: -15px;
+    font-size: 7rem;
+    font-family: 'Reem Kufi', sans-serif;
+    text-shadow: 0px -9px #ffffff;
+    color: #44332c;
+}
+
+#nam {
+    background-image: url(../media/R.png);
+    height: 117px;
+    width: 11rem;
+    background-size: 11rem;
+    background-repeat: no-repeat;
+}
+
+.inputt {
+    margin-right: auto;
+    width: 17rem;
+    margin-left: auto;
+}
+
+.container-head form {
+    height: 25px;
+    width: 300px;
+}
+
+
+input[type="search"] {
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-radius: 3.5px;
+    box-shadow: -1px 3px 6px black;
+}
+
+
+input[type="submit"] {
+    width: 16%;
+    height: 23px;
+    border: none;
+    cursor: pointer;
+    background: #f7d690;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+}
+
+input[type="submit"]:hover {
+    background: #f7d690;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+
+.container-head .botn {
+    background: #f7d690;
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 120px;
+    border-radius: 7px;
+    box-shadow: 0px 3px 7px 0px black;
+    cursor: pointer;
+}
+
+.container-head .botn:hover {
+    background: goldenrod;
+    transition: .4s;
+    box-shadow: 0px 0px 6px 4px rgb(30, 44, 8);
+}
+
+.container-head .botn a {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* end container-head */
+
+/* start contact */
+.contact-app {
+    position: fixed;
+    left: 0;
+    top: 60%;
+    z-index: 90000;
+    background: #f7d690;
+    ;
+    box-shadow: 0px 3px 7px 0px black;
+}
+
+.contact-app .contactbox {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-app .contactbox a {
+    color: black;
+    font-size: 20px;
+}
+
+/* End contact */
+
+@media (max-width:576px) {
+    li {
+        display: block;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        min-width: 100%;
+    }
+}
+
+/* <!-- start landing --> */
+.container-land {
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #192221b3, #73db58);
+    background-image: url(../media/Brown\ Soft\ Minimalist\ Marhaban\ Yaa\ Ramadhan\ Instagram\ Post.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box-land {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 25px;
+    font-size: 20px;
+    /* border: #f3f3f3 solid 1.9px; */
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px 12px 12px 12px;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    box-shadow: 1px 2px 26px -11px #232824;
+    background: #44332c;
+    background-image: url(../media/b1.jpg);
+    background-size: cover;
+
+}
+
+@keyframes change-color {
+    0% {
+        position: relative;
+        right: 30px;
+    }
+
+    100% {
+        position: relative;
+        right: 100%;
+    }
+}
+
+div.box-land h2 {
+    /* color: rgb(255, 255, 255); */
+    color: #000;
+    text-align: center;
+}
+
+button.btn-box {
+    border-radius: 7px;
+    padding: 10px 15px;
+    border: none;
+    background: #f7d690;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+button.btn-box a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* <!-- end landing --> */
+
+/* <!-- start azkar --> */
+div#azkar {
+    margin: 15px;
+}
+
+.Azkar-box {
+    background: linear-gradient(225deg, #c9ad77, #838c84) !important;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.Azkar-box::before {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    right: 0;
+}
+
+.Azkar-box::after {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+}
+
+.Azkar-box p {
+    color: #000000;
+    font-weight: bold;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+/* <!-- end azkar --> */
+
+
+
+/* <!-- start Big content  --> */
+
+div#islam {
+    margin-top: 60px;
+}
+
+.header h1 {
+    color: #000000;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    background: linear-gradient(174deg, #f7d690, #fff) !important;
+}
+
+.big-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.big-container ul p {
+    background-color: #c0c0c0;
+    border: none;
+    display: flex;
+    border-radius: .4rem;
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: .3rem;
+    padding: 0;
+    box-shadow: 0px 2px 3px 0px white;
+}
+
+.big-container ul p:hover {
+    background: antiquewhite;
+}
+
+.big-container ul p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.box-big-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* background: linear-gradient(to left, #8c9083, #bba77a); */
+    background-image: url(../media/b1.jpg);
+    background-size: cover;
+}
+
+.box-content a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    width: 250px;
+    padding: 13px;
+    margin: 10px;
+    border-radius: 1rem;
+    box-shadow: -3px 3px 5px 0px white;
+    text-decoration: none;
+
+
+}
+
+.box-content #bo {
+    background-image: url(../media/أول-ما-يحاسب-عليه-العبد-يوم-القيامة-750x430.jpg);
+    background-size: cover;
+    animation: change-co 6s infinite linear;
+    transition: 3s;
+}
+
+.box-content #boxx {
+    background-image: url(../media/دعاء-التوفيق-في-الدراسة2.png);
+    background-size: cover;
+    animation: change-c 6s infinite linear;
+    transition: 3s;
+}
+
+.box-content #boxxx {
+    background-image: url(../media/كم-مرة-ذكر-رمضان-في-القران-750x430\ \(1\).jpg);
+    background-size: cover;
+    animation: chang 6s infinite linear;
+    transition: 3s;
+}
+
+/* 
+.box-content #boxxxx {
+    background-image: url(../media/قصة-أبو-بكر-الصديق-مع-الرسول-في-غار-ثورض-750x430.jpg);
+    background-size: cover;
+    animation: change 6s infinite linear;
+    transition: 3s;
+} */
+
+/* @keyframes change-co {
+    0% {
+        background-image: url(../media/أول-ما-يحاسب-عليه-العبد-يوم-القيامة-750x430.jpg);
+    }
+
+    30% {
+        background-image: url(../media/دعاء-التوفيق-في-الدراسة2.png);
+    }
+
+    60% {
+        background-image: url(../media/قصة-أبو-بكر-الصديق-مع-الرسول-في-غار-ثورض-750x430.jpg);
+    }
+}
+
+@keyframes change-c {
+    0% {
+        background-image: url(../media/قصة-أبو-بكر-الصديق-مع-الرسول-في-غار-ثورض-750x430.jpg);
+    }
+
+    30% {
+        background-image: url(../media/أول-ما-يحاسب-عليه-العبد-يوم-القيامة-750x430.jpg);
+    }
+
+    60% {
+        background-image: url(../media/كم-مرة-ذكر-رمضان-في-القران-750x430\ \(1\).jpg);
+    }
+}
+
+@keyframes chang {
+    0% {
+        background-image: url(../media/كم-مرة-ذكر-رمضان-في-القران-750x430\ \(1\).jpg);
+    }
+
+    30% {
+        background-image: url(../media/دعاء-التوفيق-في-الدراسة2.png);
+    }
+
+    60% {
+        background-image: url(../media/قصة-أبو-بكر-الصديق-مع-الرسول-في-غار-ثورض-750x430.jpg);
+    }
+}
+
+@keyframes change {
+    0% {
+        background-image: url(../media/قصة-أبو-بكر-الصديق-مع-الرسول-في-غار-ثورض-750x430.jpg);
+    }
+
+    30% {
+        background-image: url(../media/أول-ما-يحاسب-عليه-العبد-يوم-القيامة-750x430.jpg);
+    }
+
+    60% {
+        background-image: url(../media/كم-مرة-ذكر-رمضان-في-القران-750x430\ \(1\).jpg);
+    }
+} */
+
+.box-content img:hover {
+    opacity: .3;
+}
+
+h3.h {
+    border-radius: 11px;
+    color: #000;
+    width: 71px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 7px 15px black;
+    padding: 5px 15px;
+    border: none;
+    background: #f8dbb0;
+}
+
+h3.h:hover {
+    background: silver;
+}
+
+/* <!-- end Big content  --> */
+
+section#contact {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1.heading {
+    width: 36%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Reem Kufi', sans-serif;
+    padding-top: 15px;
+}
+
+.contact .row {
+    background: #ffffff45;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 17px 1px #000000;
+    flex-wrap: wrap;
+    height: 320px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: 44%;
+    margin-top: 20px;
+    height: 1.7rem;
+    margin-right: 3px;
+    margin-left: 3px;
+    background: white;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(255, 253, 253);
+    outline: none;
+    border-radius: 7px;
+}
+
+
+.contact .row form textarea {
+    width: 49%;
+    margin-top: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    height: 10em;
+    background: linear-gradient(45deg, #2bc0e4, #eaecc6) !important;
+    border: none;
+    box-shadow: 0px 4px 7px rgb(255, 255, 255);
+    outline: none;
+    border-radius: 7px;
+}
+
+.contact .row form .btn {
+    background-color: #a5a5a1;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: .4rem;
+    border-radius: 11px;
+    z-index: 0;
+    width: 5rem;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0px 4px 7px rgb(255, 255, 255);
+}
+
+.contact .row form .btn:hover {
+    color: #fff;
+    background-color: #a5a5a1;
+    border: 1px solid #fff;
+}
+
+::placeholder {
+    color: black;
+    padding-right: 10px;
+}
+
+/* end about us */
+
+/* <!-- start about us --> */
+hr {
+    background: #c0c0c0;
+    border: none;
+    height: 0.1px;
+    width: 66%;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 7px 0px white;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.head,
+.heads {
+    display: inline-block;
+}
+
+.head {
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.head h2 {
+    font-size: 4rem;
+}
+
+.heads {
+    width: 60%;
+    position: relative;
+    bottom: 1.3rem;
+    padding-right: 5px;
+    font-weight: bold;
+    z-index: 11;
+    color: #a5a5a1;
+    animation: texts 7s infinite linear;
+}
+
+@keyframes texts {
+
+    to {
+        color: #fff;
+    }
+
+}
+
+/* .heads::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 150%;
+    background: linear-gradient(45deg, #1fa2ff, #12d8fa, #a6ffcb);
+    ;
+    z-index: -1;
+    top: -8px;
+    right: 0;
+    animation: texs 7s infinite linear;
+}
+
+@keyframes texs {
+
+    to {
+        width: 90%;
+    }
+
+} */
+
+/* <!-- end about us --> */
+
+.sadaqaaa {
+    position: relative;
+    bottom: 5rem;
+    margin-top: 60px;
+}
+
+p.nashkor {
+    position: absolute;
+    font-weight: bold;
+    background: #bc5101;
+    width: 100%;
+    text-align: center;
+    height: 44px;
+    color: white;
+    font-size: 2rem;
+}
+
+/* start footer */
+
+footer .content {
+    min-height: 40px;
+    margin: auto;
+    padding: 1px 0;
+    text-align: center;
+    background-color: #ddd !important;
+}
+
+footer .content p {
+    color: #000000;
+    font-weight: bold;
+}
+
+/* End footer */

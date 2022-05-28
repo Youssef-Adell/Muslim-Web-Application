@@ -1,0 +1,135 @@
+/* <!-- Start box1 --> */
+.tabb{
+    position: relative;
+    z-index: 111;
+}
+.tabel3 {
+    box-shadow: 0px 2px 12px -3px rgb(0 0 0);
+    padding-bottom: 5px; 
+    text-align: center; 
+    background-color: rgb(192 192 192);
+    display: inline-block; 
+    margin-left: 1%; 
+    margin-bottom: 13px; 
+    margin-top: 13px; 
+    font-size: 20px; 
+    width: 48.5%; 
+    float: right;
+}
+h1.kh {
+    font-size: 3vw;
+    text-align: center;
+}
+.link {
+    text-align: center;
+}
+a.jj {
+    color: black;
+    font-family: 'Reem Kufi', sans-serif;
+    text-decoration: none;
+}
+/* <!-- end box1 --> */
+
+/* <!-- start bigtabel --> */
+.bigtabel {
+    position: relative;
+    background: #8c8c8c;
+}
+.bigtabel1 {
+    text-align: center;
+}
+h1.agwai {
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+    font-size: 6vw;
+    animation: boyd 2s ease-in-out infinite;
+}
+@keyframes boyd{
+    to{
+        color: #000;
+        text-shadow: 5px 5px 5px #ffffff;
+    }
+}
+
+/* <!-- end bigtabel --> */
+
+/* videoo */
+.vidooo {
+    position: relative;
+}
+video.kes {
+    width: 100%;
+    height: 33vw;
+}
+
+/* videoo */
+
+.qsa6 {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    width: 35%;
+    text-align: center;
+    height: 100%;
+}
+ul.lista {
+    width: 26vw;
+    height: 29vw;
+    position: absolute;
+    right: -9vw;
+    top: 7vw;
+}
+li.listt {
+    display: inline-block;
+    width: 40%;
+    height: 10vw;
+}
+img.phphh {
+    width: 7vw;
+}
+.liss {
+    position: relative;
+    top: -1vw;
+}
+h1.hre {
+    font-size: 1vw;
+    padding-right: 0vw;
+}
+a.linkss {
+    padding: 0;
+    margin: 0;
+}
+
+/* <!--start headerr --> */
+
+.fawaed {
+    box-shadow: 3px 1px 16px 0px rgb(0 0 0);
+    background: silver;
+    margin-top: 5vw;
+}
+h1.headdd {
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color: #f2ebd7;
+    text-shadow: 3px 1px 16px rgb(0 0 0);
+    font-family: 'Reem Kufi', sans-serif;
+}
+.fawed {
+    margin-bottom: 6vw;
+}
+.fw {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid silver;
+}
+.dddd {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+h1.heddd {
+    color: black;
+    font-size: 1.3rem;
+}
+/* <!--end headerr --> */

@@ -1,0 +1,117 @@
+/* <!-- start twar --> */
+.vidoo {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* <!-- end twar --> */
+
+/* START KESSAAA */
+table.kesa {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    font-size: -webkit-xxx-large;
+    font-family: 'Reem Kufi', sans-serif;
+    background: #bbbab3;
+    margin-top: 20px;
+    position: relative;
+    transition: 2s;
+}
+
+caption::after {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+}
+
+caption::before {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    right: 0;
+}
+
+video.kesa3 {
+    width: 22vw;
+    height: 22vw;
+    position: relative;
+    top: -12px;
+}
+
+p.kesa2 {
+    font-weight: bold;
+    text-align: center;
+    background: #8c8c8c;
+    color: black;
+    transition: .5s;
+    position: relative;
+}
+
+p.kesa2 a {
+    font-size: 3vw;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+
+p.kesa2::before {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 2px;
+    top: 1px;
+    right: 0;
+    transition: 1.5s;
+}
+
+p.kesa2:hover::before {
+    content: '';
+    position: absolute;
+    background: #caafaf;
+    width: 100%;
+    height: 1.3vw;
+    top: 1px;
+    right: 0;
+}
+
+p.kesa2::after {
+    content: '';
+    position: absolute;
+    background: #fff7f7;
+    width: 100%;
+    height: 2px;
+    bottom: 1px;
+    right: 0;
+    transition: 1.5s;
+}
+
+p.kesa2:hover::after {
+    content: '';
+    position: absolute;
+    background: #caafaf;
+    width: 100%;
+    height: 1.3vw;
+    bottom: 1px;
+    right: 0;
+    z-index: 1;
+}
+
+p.kesa2 a:hover {
+    color: white;
+    font-size: 2.7vw;
+}
+
+/* end KESSAAA */
