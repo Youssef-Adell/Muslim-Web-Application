@@ -1,18 +1,18 @@
 
 # Muslim Web App
 
-Web Application provides all services what Muslim needs such as listening to Al-Quran , Al-Azkar, Prayer Timings and other many things
+Web Application provides all services what Muslim needs such as listening to Al-Quran , Al-Azkar, Prayer Timings and other many things.
 
-_**NOTE:** I participated in its development with my team at university and I was only responsible for some parts of the backend_
+_**NOTE:** I participated in its development with my team at university and I was only responsible for some parts of the backend._
 
 
 
 ## Features
 
-- Registration System for handling users
-- Some pages are accessible only for registered users
-- User can search for quran sour using search bar
-- Contact form using PHPMailer
+- Registration System for handling users.
+- Some pages are accessible only for registered users.
+- User can search for quran sour using search bar.
+- Contact form using PHPMailer.
 ## Built With
 
 - PHP
